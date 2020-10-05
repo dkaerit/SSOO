@@ -17,6 +17,14 @@ body {
     margin: 8px;
 }
 
+.indice {
+    position: fixed;
+    width: 343px;
+    background: #efefef;
+    margin: -34px 0px;
+    height: 100%;
+}
+
 p {
     font-family: berkeley;
 }
