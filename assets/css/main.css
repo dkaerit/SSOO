@@ -21,6 +21,12 @@ body {
     margin: -17px 0px;
 }
 
+
+ol {
+    font-family: arial;
+    font-size: 14px;
+}
+
 .header {
     color: #fff;
     margin: -28px -34px 0px;
