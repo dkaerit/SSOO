@@ -1,6 +1,6 @@
--- 
+--- 
 layout: post
---
+---
 
 # Introducción a los sistemas operativos
 
