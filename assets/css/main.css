@@ -14,4 +14,16 @@ body {
     color: var(--color-light);
 }
 
+p {
+    font-family: berkeley;
+}
+
+h2 {
+    font-family: grotesque;
+}
+
+h1 {
+    font-family: Segoeui;
+}
+
 
