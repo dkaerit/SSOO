@@ -10,22 +10,8 @@
 
 /* ESTILOS */ 
 body {
-    background: var(--bg-dark);
-    color: var(--color-dark);
+    background: var(--bg-light);
+    color: var(--color-light);
 }
 
 
-/*FONT FACE*/
-@font-face {
-    font-family: 'segoeui';
-    src: url('../fonts/segoeui.ttf') format('truetype'); 
-} 
-
-@font-face {
-    font-family: 'grotesque';
-    src: url('../fonts/GrotesqueMTStd.otf') format("opentype"); 
-
-@font-face {
-    font-family: 'berkeley';
-    src: url('../fonts/BerkeleyStd-Book.otf') format("opentype"); 
-} 
