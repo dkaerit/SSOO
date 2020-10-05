@@ -10,8 +10,11 @@
 
 /* ESTILOS */ 
 body {
-    background: var(--bg-light);
-    color: var(--color-light);
+    margin: 0px!important;
+}
+
+#wrap {
+    margin: 8px;
 }
 
 p {
