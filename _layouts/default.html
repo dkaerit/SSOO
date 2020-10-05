@@ -4,8 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistemas Operativos</title>
+    <style>
+        @font-face {
+            font-family: 'segoeui';
+            src: url('assets/segoeui.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+        } 
+        
+        @font-face {
+            font-family: 'grotesque';
+            src: url('assets/GrotesqueMTStd.otf') format("opentype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+        } 
+                
+        @font-face {
+            font-family: 'berkeley';
+            src: url('assets/BerkeleyStd-Book.otf') format("opentype"); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+        } 
+    </style>
 </head>
 <body>
-    {{ content }}
+    <div style="font-family: berkeley">{{ content }}</div>
 </body>
 </html>
