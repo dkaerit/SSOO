@@ -1,16 +1,17 @@
 /* VARAIABLES */
-@bool-theme: 2;
+:root {
+    --bg-dark: #000;
+    --color-dark: #fff;
 
-@bg-dark: #000;
-@color-dark: #fff;
+    --bg-light: #000;
+    --color-light: #fff;
+}
 
-@bg-light: #000;
-@color-light: #fff;
 
 /* ESTILOS */ 
 body {
-    background: if(@bool-theme < 2, @bg-dark, @bg-light);
-    color: if(@bool-theme < 2, @color-dark, @color-light);
+    background: var(--bg-dark);
+    color: var(--color-dark);
 }
 
 
