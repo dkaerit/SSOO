@@ -28,7 +28,7 @@ body {
     position: fixed;
     width: 343px;
     background: #efefef;
-    margin: -34px 0px;
+    overflow-y: scroll;
     height: 100%;
 }
 
