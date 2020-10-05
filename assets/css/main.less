@@ -1,9 +1,16 @@
 /* VARAIABLES */
-@bg: #000;
+@bool-theme: 1;
+
+@bg-dark: #000;
+@color-dark: #fff;
+
+@bg-light: #000;
+@color-light: #fff;
 
 /* ESTILOS */ 
 body {
-    background: @bg;
+    background: if(@bool-theme < 2, @bg-dark, @bg-light);
+    color: if(@bool-theme < 2, @color-dark, @color-light);
 }
 
 
