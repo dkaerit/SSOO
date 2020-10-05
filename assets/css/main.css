@@ -45,6 +45,11 @@ ol {
     height: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: #805b92;
+}
+
 .content.wrapper {
     margin: 28px 28px 0px 377px;
 }
